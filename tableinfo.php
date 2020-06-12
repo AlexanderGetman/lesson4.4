@@ -77,7 +77,7 @@ if (isset($_POST['nameToDelete'])) {
             <td>
                 <form action="" method="POST">
                     <select name="newtype">
-                        <option selected disabled>Выберите тип поля</option>
+                        <option selected disabled>Выберите тип поля:</option>
                         <option value="VARCHAR(50)">VARCHAR(50)</option>
                         <option value="VARCHAR(255)">VARCHAR(255)</option>
                         <option value="TINYINT(10)">TINYINT(10)</option>
